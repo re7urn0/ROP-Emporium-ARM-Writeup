@@ -1,4 +1,4 @@
-# ROP Emporium Writeup
+# ROP Emporium ARM Writeup
 
 ## Challenge1_ret2win
 
@@ -245,22 +245,4 @@ p.sendlineafter(b"> ", payload)
 p.recvuntil(b"Thank you!\n")
 print(p.recvline())
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
